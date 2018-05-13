@@ -1,9 +1,9 @@
 {
-  "name": "twilio-f",
-  "version": "0.1.5",
+  "name": "twiliotf",
+  "version": "0.1.8",
   "description": "Twilio Forwarding Service",
-  "author": "nemo <nima@halfmoon.ws>",
-  "main": "f/forward/index.js",
+  "author": "robin <d7robin@gmail.com>",
+  "main": "functions/__main__.js",
   "dependencies": {
     "async": "^2.1.4",
     "lodash": "^4.17.2",
@@ -11,9 +11,13 @@
   },
   "private": false,
   "stdlib": {
-    "name": "nemo/twilio",
-    "defaultFunction": "forward",
+    "build": "faaslang",
+    "name": "robin/twiliotf",
     "timeout": 10000,
-    "publish": true
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
   }
 }
