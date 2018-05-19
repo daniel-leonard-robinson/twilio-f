@@ -1,6 +1,6 @@
 {
   "name": "twiliotf",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Twilio Forwarding Service",
   "author": "robin <d7robin@gmail.com>",
   "main": "functions/__main__.js",

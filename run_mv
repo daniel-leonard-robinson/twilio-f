@@ -1,0 +1,1 @@
+mv ~/__main__.js ./functions/__main__.js && lib .
